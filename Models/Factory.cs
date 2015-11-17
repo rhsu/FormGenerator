@@ -7,10 +7,9 @@ namespace FormGenerator
 	/// </summary>
 	public class Factory
 	{
-
-
 		public Form CreateForm()
 		{
+			
 			return null;
 		}
 
