@@ -8,7 +8,7 @@ namespace FormGenerator
 		public IEnumerable<Panel> Panels { get; }
 		public int Id { get; }
 
-		Form (IEnumerable<Panel> panels, int id)
+		internal Form (IEnumerable<Panel> panels, int id)
 		{
 			this.Panels = panels;
 			this.Id = id;

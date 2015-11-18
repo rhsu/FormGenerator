@@ -4,7 +4,7 @@ namespace FormGenerator
 {
 	public class Panel
 	{
-		public Panel ()
+		internal Panel ()
 		{
 		}
 	}

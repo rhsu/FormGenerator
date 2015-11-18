@@ -69,6 +69,7 @@
     <Folder Include="Scripts\" />
     <Folder Include="DataRepository\" />
     <Folder Include="DataRepository\_Interfaces\" />
+    <Folder Include="Factory\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -80,9 +81,9 @@
     <Compile Include="Models\Control.cs" />
     <Compile Include="Models\Fields.cs" />
     <Compile Include="Models\FormBuilderService.cs" />
-    <Compile Include="Models\Factory.cs" />
     <Compile Include="DataRepository\_Interfaces\IDataRepository.cs" />
     <Compile Include="DataRepository\DataRepositoryStatic.cs" />
+    <Compile Include="Factory\GeneralFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
