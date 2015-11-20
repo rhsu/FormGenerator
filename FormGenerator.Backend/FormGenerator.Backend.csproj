@@ -37,6 +37,9 @@
     <Compile Include="Form.cs" />
     <Compile Include="FormBuilderService.cs" />
     <Compile Include="Panel.cs" />
+    <Compile Include="DataRepository\_Interfaces\IDataRepository.cs" />
+    <Compile Include="DataRepository\DataRepositoryStatic.cs" />
+    <Compile Include="Factory\GeneralFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
