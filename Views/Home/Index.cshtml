@@ -1,10 +1,23 @@
-﻿<div>
+﻿@using FormGenerator.Models;
+
+@model IndexViewModel
+
+<div>
 	@using (Html.BeginForm())
 	{
 		<fieldset>
 			<legend>Create A Form</legend>
 
-			
+			<div>	
+				@Html.LabelFor(m => m.FormName)
+				@Html.EditorFor(m => m.FormName)
+			</div>
+
+			<div>
+				@Html.LabelFor(m => m.numberOfPanels)
+				@Html.EditorFor(m => m.numberOfPanels)
+			</div>
+
 			<button>Submit</button>
 		</fieldset>
 	}
