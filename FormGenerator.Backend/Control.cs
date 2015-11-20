@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FormGenerator
+namespace FormGenerator.Backend
 {
 	public class Control
 	{

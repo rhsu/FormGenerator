@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FormGenerator
+namespace FormGenerator.Backend
 {
 	public class FormBuilderService
 	{
