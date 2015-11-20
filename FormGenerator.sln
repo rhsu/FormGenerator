@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormGenerator", "FormGenerator.csproj", "{EC12AE9D-816C-403F-99D9-4C40E1F918F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormGenerator.Backend", "FormGenerator.Backend\FormGenerator.Backend.csproj", "{35F7AF5F-E832-430D-A031-0F85C5ADD62D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35F7AF5F-E832-430D-A031-0F85C5ADD62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F7AF5F-E832-430D-A031-0F85C5ADD62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F7AF5F-E832-430D-A031-0F85C5ADD62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F7AF5F-E832-430D-A031-0F85C5ADD62D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC12AE9D-816C-403F-99D9-4C40E1F918F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC12AE9D-816C-403F-99D9-4C40E1F918F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC12AE9D-816C-403F-99D9-4C40E1F918F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
