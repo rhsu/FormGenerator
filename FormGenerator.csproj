@@ -74,11 +74,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Form.cs" />
-    <Compile Include="Models\Panel.cs" />
-    <Compile Include="Models\Control.cs" />
-    <Compile Include="Models\Fields.cs" />
-    <Compile Include="Models\FormBuilderService.cs" />
+    <Compile Include="Models\FormViewModel.cs" />
+    <Compile Include="Models\PanelViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
