@@ -95,4 +95,10 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <ProjectReference Include="FormGenerator.Backend\FormGenerator.Backend.csproj">
+      <Project>{35F7AF5F-E832-430D-A031-0F85C5ADD62D}</Project>
+      <Name>FormGenerator.Backend</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
