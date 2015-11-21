@@ -11,6 +11,7 @@ namespace FormGenerator.Models
 		public DisplayViewModel (IndexViewModel indexPage)
 		{
 			this.Panels = new List<PanelViewModel> ();
+			this.FormName = indexPage.FormName;
 
 			for (var i = 0; i < indexPage.NumberOfPanels; i++) 
 			{

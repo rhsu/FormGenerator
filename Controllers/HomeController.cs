@@ -16,13 +16,15 @@ namespace FormGenerator.Controllers
 		[HttpPost]
 		public ActionResult Index (IndexViewModel pageViewModel)
 		{
-			return View ("Display", pageViewModel);
+			// return View ("Display", pageViewModel);
+			return RedirectToAction("Display", "Home", pageViewModel);
 		}
 
-		[HttpPost]
 		public ActionResult Display(IndexViewModel vmIndexPage)
 		{
-			return View (vmIndexPage);
+			DisplayViewModel pageViewModel = new DisplayViewModel (vmIndexPage);
+
+			return View (pageViewModel);
 		}
 	}
 }

@@ -3,8 +3,7 @@
 @model IndexViewModel
 
 <div>
-	@using (Html.BeginForm())
-	{
+	<form action="~/Home/Display">
 		<fieldset>
 			<legend>Create A Form</legend>
 
@@ -14,11 +13,11 @@
 			</div>
 
 			<div>
-				@Html.LabelFor(m => m.numberOfPanels)
-				@Html.EditorFor(m => m.numberOfPanels)
+				@Html.LabelFor(m => m.NumberOfPanels)
+				@Html.EditorFor(m => m.NumberOfPanels)
 			</div>
 
 			<button>Submit</button>
 		</fieldset>
-	}
+	</form>
 </div>
